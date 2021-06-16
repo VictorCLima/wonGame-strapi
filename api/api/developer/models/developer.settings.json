@@ -6,10 +6,8 @@
   },
   "options": {
     "increments": true,
-    "timestamps": true,
-    "draftAndPublish": true
+    "timestamps": true
   },
-  "pluginOptions": {},
   "attributes": {
     "name": {
       "type": "string",
@@ -23,7 +21,7 @@
     },
     "games": {
       "via": "developers",
-      "collection": "games"
+      "collection": "game"
     }
   }
 }
